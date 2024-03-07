@@ -17,7 +17,7 @@ console.log(typeof child);
 if (position = "married") {
 	console.log(true)
 }
-else  {
+else {
 	console.log(false)
 }
 
@@ -25,28 +25,29 @@ else  {
 
 var height = 23;
 var width = 10;
-var result = height 
+var result = height * width;
 
-console.log(23*10);
+console.log(result);
 
 
 // task 3
 
-var height1 = 10;
-var cube = 4;
-var number = 3.14;
+var h = 10;
+var s = 4;
 
-console.log(number**cube*height1);
+
+
+console.log(s ** h);
 
 // task 4
 
 console.log(Infinity - "1");  //infinity ?
-console.log("42" + 42);  //думаю это конкотенация строка к числу будет 4242 ?
-console.log(2 + "1 1") //тоже конкотенация ?      а не получилось 21 1
-console.log(99 + 101)  // процесс сложения = 200
-console.log("1" - "1") // посчитает их как строки ?  получилсч ответ 0
-console.log("Result: " + 10/2)  //result 5
-console.log(3 + " bananas " + 2 + " apples "); // может 3 бананов и  2 яблока 
+console.log("42" + 42);  //4242
+console.log(2 + "1 1") //21 1
+console.log(99 + 101)  // 200
+console.log("1" - "1") // 0
+console.log("Result: " + 10 / 2)  //result 5
+console.log(3 + " bananas " + 2 + " apples "); //3 бананов и  2 яблока 
 
 
 
@@ -103,7 +104,7 @@ console.log(3 + " bananas " + 2 + " apples "); // может 3 бананов и
 
 
 // string
-// обратный slash / для строки 
+// обратный slash / для строки
 // var t = "ivan";
 // var text = "any text";
 // var words = "she says to him: `Hello` ";
@@ -120,7 +121,7 @@ console.log(3 + " bananas " + 2 + " apples "); // может 3 бананов и
 // 	console.log(2)
 // }
 
-// ПРОВЕРКА НА ТИП ДАННЫХ 
+// ПРОВЕРКА НА ТИП ДАННЫХ
 
 // console.log(typeof a);
 
@@ -146,7 +147,7 @@ console.log(3 + " bananas " + 2 + " apples "); // может 3 бананов и
 // var result = word1 + word2 + word3;
 // console.log(result)
 
-// ОСТАТОК ОТ ДЕЛЕНИЯ 
+// ОСТАТОК ОТ ДЕЛЕНИЯ
 
 // console.log(10 % 7); //3
 
